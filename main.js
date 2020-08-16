@@ -78,7 +78,7 @@ function checkStatus() {
     const options = {
         host: adapter.config.ip,
         port: '80',
-        path: '/sony/system',
+        path: '/sony/',
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
